@@ -27,7 +27,7 @@ echo "----------- done .... "
 
 #gaia
 echo "----------- installing build dep [gaia] 1/1...."
-apt-get install -y build-essential libqt4-dev libyaml-dev python-dev pkg-config
+apt-get install -y build-essential libqt4-dev libyaml-dev python-dev pkg-config python-tk
 mkdir /gaia && cd /gaia && git clone --depth 1 https://github.com/MTG/gaia.git
 cd /gaia/gaia && ./waf configure --with-python-bindings --with-asserts --with-cyclops && ./waf && ./waf install
 
