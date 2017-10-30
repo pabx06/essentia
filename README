@@ -1,0 +1,3 @@
+#kickstart swig, gaia, essentia template VM from source.
+vagrant box add ubuntu/xenial64 #add box from hashicorp cloud
+vagrant up #starts and provisions the vagrant environment

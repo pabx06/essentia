@@ -1,0 +1,5 @@
+.vagrant
+*.tar.gz
+*.deb
+*.msi
+*.log
