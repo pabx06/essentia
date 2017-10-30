@@ -54,6 +54,9 @@ Vagrant.configure("2") do |config|
   #
   #   # Customize the amount of memory on the VM:
      vb.memory = "2024"
+     #https://gist.github.com/betweenbrain/7798873
+     #disable VT-x
+     vb.customize ["modifyvm", :id, "--hwvirtex", "off"]
    end
   #
   # View the documentation for the provider you are using for more
